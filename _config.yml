@@ -3,24 +3,17 @@ author: "Macaulay Curtis"
 description: "A blog about translating legal language and other linguistic curiosities." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 email: contact@asociis.co.jp
 future: false # GitHub Pages will publish future posts if this isn't set to false
+timezone: Japan/Tokyo
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "contact@asociis.co.jp"
-#twitter_username: "twitteruser"
-#github_username: "githubuser"
 linkedin_username: "macaulay-curtis"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+theme: "minimal"
 
 rss: rss
 
@@ -31,11 +24,15 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-#  - jekyll-furigana
+  - jekyll-seo-tags
 
 titles_from_headings:
   strip_title: true
   collections: true
+    materials:
+        output: true
+    digressions:
+        output: true
 
 defaults:
   - scope:
