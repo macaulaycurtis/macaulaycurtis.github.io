@@ -31,7 +31,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-furigana
+#  - jekyll-furigana
 
 titles_from_headings:
   strip_title: true
