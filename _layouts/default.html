@@ -50,6 +50,7 @@
           </li>
           {%- endfor -%}
         </ul>
+      {%- endif -%}
 
       {%- if site.digressions.size > 0 -%}
         {%- assign personalPosts = site.personal | sort: date | reverse -%}
