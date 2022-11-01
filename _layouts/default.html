@@ -23,7 +23,8 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p class="view"><a href="https://www.asociis.co.jp">Contact me | お問い合わせはこちら</a></p>
+        <p class="view"><a href="{{ "/archive.html" | absolute_url}}">Blog archive | バックナンバー</a></p>
+        <p class="view"><a href="{{ "/materials.html" | absolute_url}}">Resources | 資料</a></p>
         
         <div class="trigger">
           {%- for path in page_paths -%}
