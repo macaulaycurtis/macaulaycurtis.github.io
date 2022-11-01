@@ -1,0 +1,19 @@
+{
+    "name": "A Sociis | Legal Translation",
+    "short_name": "A Sociis",
+    "icons": [
+        {
+            "src": "/image/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/image/favicon/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#002244",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
