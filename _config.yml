@@ -34,8 +34,6 @@ header_pages:
 titles_from_headings:
   strip_title: true
   collections:
-    materials:
-        output: true
     digressions:
         output: true
 
