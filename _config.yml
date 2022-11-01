@@ -27,6 +27,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tags
 
+header_pages:
+  - archive.md
+  - materials.md
+
 titles_from_headings:
   strip_title: true
   collections:
