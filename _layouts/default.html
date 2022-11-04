@@ -16,16 +16,16 @@
  
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
         
+        {% if site.logo %}
+        <a href="https://www.asociis.co.jp"><img src="{{site.logo | relative_url}}" alt="A Sociis Legal Translation" /></a>
+        {% endif %}
+        
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>       
         <p class="view"><a href="{{ "/archive.html" | absolute_url}}">Blog archive | バックナンバー</a></p>
         <p class="view"><a href="{{ "/materials.html" | absolute_url}}">Resources | 資料</a></p>
+        <p class="view"><a href="https://www.asociis.co.jp">Translation Services | 弊社ホームページ</a></p>
                
       </header>
       <section>
