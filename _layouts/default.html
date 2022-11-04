@@ -15,23 +15,18 @@
   <body>
     <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-text-theme w3-card" id="myNavbar" style="font-family:'Quattrocento', serif">
+  <div style="width:100%; top:0; position:fixed; z-index:1"class="w3-bar w3-white w3-text-theme w3-card" id="myNavbar">
     <a href="https://www.asociis.co.jp/#home">
       <img src="image/nav-logo.png" alt="A Sociis" class="w3-image" style="width:100%;max-width:10rem;padding:1rem"></img>
     </a>
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
+    <div style="float: right !important; font-size: 1.2rem; padding: 1rem">
       <a href="https://www.asociis.co.jp/#about" class="w3-bar-item w3-button w3-hover-amber"><i class="far fa-building"></i> About</a>
       <a href="https://www.asociis.co.jp/#services" class="w3-bar-item w3-button w3-hover-amber"><i class="fa fa-file-alt"></i> Services</a>
       <a href="https://www.asociis.co.jp/#pricing" class="w3-bar-item w3-button w3-hover-amber"><i class="fa fa-yen-sign"></i> Pricing</a>
       <a href="https://www.asociis.co.jp/#contact" class="w3-bar-item w3-button w3-hover-amber"><i class="fa fa-envelope"></i> Contact</a>
       <a href="{{ "/" | absolute_url }}" class="w3-bar-item w3-button w3-hover-amber"><i class="fa-solid fa-rss"></i> Blog</a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
 </div>
 
