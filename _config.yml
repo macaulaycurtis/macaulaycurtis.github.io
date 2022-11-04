@@ -44,4 +44,4 @@ defaults:
     values:
       tags: Other
       
-site-logo: /image/nav-logo.png
+logo: /image/nav-logo.png
