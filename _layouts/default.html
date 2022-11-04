@@ -13,6 +13,37 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-text-theme w3-card" id="myNavbar" style="font-family:'Quattrocento', serif">
+    <a href="https://www.asociis.co.jp/#home">
+      <img src="image/nav-logo.png" alt="A Sociis" class="w3-image" style="width:100%;max-width:10rem;padding:1rem"></img>
+    </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="https://www.asociis.co.jp/#about" class="w3-bar-item w3-button w3-hover-amber"><i class="far fa-building"></i> About</a>
+      <a href="https://www.asociis.co.jp/#services" class="w3-bar-item w3-button w3-hover-amber"><i class="fa fa-file-alt"></i> Services</a>
+      <a href="https://www.asociis.co.jp/#pricing" class="w3-bar-item w3-button w3-hover-amber"><i class="fa fa-yen-sign"></i> Pricing</a>
+      <a href="https://www.asociis.co.jp/#contact" class="w3-bar-item w3-button w3-hover-amber"><i class="fa fa-envelope"></i> Contact</a>
+      <a href="{{ "/" | absolute_url }}" class="w3-bar-item w3-button w3-hover-amber"><i class="fa-solid fa-rss"></i> Blog</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-theme w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-hover-amber">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-amber">About</a>
+  <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-amber">Services</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-amber">Pricing</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-amber">Contact</a>
+  <a href="{{ "/" | absolute_url }}" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-amber">Blog</a>
+</nav>
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -25,7 +56,6 @@
         
         <p class="view"><a href="{{ "/archive.html" | absolute_url}}">Blog archive | バックナンバー</a></p>
         <p class="view"><a href="{{ "/materials.html" | absolute_url}}">Resources | 資料</a></p>
-        <p class="view"><a href="https://www.asociis.co.jp">Translation services | 弊社ホームページ</a></p>
                
       </header>
       <section>
