@@ -2,6 +2,8 @@
 layout: post
 title: Fiscal years in Japanese accounting
 description: English translation of Japanese accounting terms like 年度, 会計期間, 事業年度, and 連結会計年度.
+tags: Blog
+
 ---
 
 ## Fiscal years in Japanese accounting
