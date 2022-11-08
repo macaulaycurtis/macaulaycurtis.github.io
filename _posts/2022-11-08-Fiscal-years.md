@@ -26,7 +26,7 @@ However, like much of Japanese life, the corporate fiscal year traditionally ope
 | 22/3期 | March 2022 |
 | FY3/22 | March 2022 |
 
-As you can see, the convention in Japan is for YY年度 to be the year that starts in YY and ends in the following year, but the convention in English is for "fiscal year Y" to be the year that *ends* in YY. Some clever translators have noticed this, and make sure to add one when translating financial documents into English, but I think the majority of Japanese companies' financial disclosures in English technically get this wrong[^1].
+As you can see, the convention in Japan is for YY年度 to be the year that starts in YY and ends in the following year, but the convention in English is for "fiscal year Y" to be the year that *ends* in YY. Some clever translators have noticed this, and make sure to add one when translating financial documents into English, but I think the majority of Japanese companies' financial disclosures in English technically get this wrong. (I might be responsible for some of them... we live and learn.)
 
 On the other hand, corporate disclosures have to be kept consistent every year, and translating 2022年度 as FY2023 is asking for trouble down the line. Every time that text is translated for the rest of eternity, you have to remember to add one to all the 年度s, but not the other numbers. It might be more prudent to let the reader figure out that the Japanese convention is different, rather than making a rod for your editor's back every single year.
 
@@ -62,7 +62,7 @@ The what? Well, some clients (and translators) insist that the current fiscal ye
 - [Here](https://www.investegate.co.uk/appreciate-group-plc/rns/full-year-results/202008120700048918V/) is a UK company's annual report from 2020, which mentions "the forecast for the year ended 31 March 2021."
 The list of counterexamples goes on and on.
 
-I suspect that this fictitious distinction actually comes from Japanese. In English, "ing"/"ed" distinction indicates whether the noun is the agent or the patient, that is, whether the verb is active or passive. The difference between "The man naming Henry" and "the man named Henry" is not one of time, but of agency - did the man give the name, or receive it? In Japanese, however, 太郎を名づける男 is always "the man who will name Henry," and "太郎を名づけた男" is "the man who named Henry." This isn't normally a source of confusion, so I imagine it's not part of the EFL curriculum, but it just so happens that we can talk about a period of time "ending" or "being ended," both in active and passive voice. This suggests a distinction between the two that doesn't really exist. They're the same.
+I suspect that this fictitious distinction actually comes from Japanese. In English, the "ing"/"ed" distinction indicates whether the noun is the agent or the patient, that is, whether the verb is active or passive. The difference between "The man naming Henry" and "the man named Henry" is not one of time, but of agency - did the man give the name, or receive it? In Japanese, however, 太郎を名づける男 is always "the man who will name Henry," and "太郎を名づけた男" is "the man who named Henry." This isn't normally a source of confusion, so I imagine it's not part of the EFL curriculum, but it just so happens that we can talk about a period of time "ending" or "being ended," both in active and passive voice. This suggests a distinction between the two that doesn't really exist. They're the same.
 
 In any case, I would like to advocate for the world at large to start using the abbreviation "YE" so that we can forget about the whole thing. The "FY3/22" convention, which is only used in analyst reports as far as I can tell, is also a delightful alternative.
 
@@ -73,5 +73,3 @@ I have used "fiscal year" throughout this post because it is considered the stan
 That about covers it for fiscal years in Japanese accounting. I hope that having this information available in English will save some other translator the trouble of looking it up. If I got anything extraordinarily wrong, please send me an email and I will correct it.
 
 Fins a la pròxima!
----
-[^1] I might be responsible for some of them... we live and learn.
