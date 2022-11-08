@@ -19,14 +19,14 @@ However, like much of Japanese life, the corporate fiscal year traditionally ope
 
 | Fiscal year | End date |
 |---|---|
-| 2022年度 (Japanese Government) | (April) 2023 |
+| 2022年度 (Japanese Government) | (March) 2023 |
 | FY2022 (US Government) | (September) 2022 |
 | 2022年3月期 | March 2022 |
 | YE March 2022 | March 2022 |
 | 22/3期 | March 2022 |
 | FY3/22 | March 2022 |
 
-As you can see, the convention in Japan is for YY年度 to be the year that starts in YY and ends in the following year, but the convention in English is for "fiscal year Y" to be the year that *ends* in YY. Some clever translators have noticed this, and make sure to add one when translating financial documents into English, but I think the majority of Japanese companies' financial disclosures in English technically get this wrong. (I might be responsible for some of them... we live and learn.)
+As you can see, the convention in Japan is for YY年度 to be a 12-month period that starts in YY and ends in the following year, but the convention in English is for "the YY fiscal year" to be a 12-month that *ends* in YY. Some clever translators have noticed this, and make sure to add one when translating financial documents into English, but I think the majority of Japanese companies' financial disclosures in English technically get this wrong. (I might be responsible for some of them... we live and learn.)
 
 On the other hand, corporate disclosures have to be kept consistent every year, and translating 2022年度 as FY2023 is asking for trouble down the line. Every time that text is translated for the rest of eternity, you have to remember to add one to all the 年度s, but not the other numbers. It might be more prudent to let the reader figure out that the Japanese convention is different, rather than making a rod for your editor's back every single year.
 
@@ -53,8 +53,18 @@ A question remains in my mind as to whether it is possible for a group's consoli
 
 By the way, 会計年度 is only used to refer to the government's fiscal year - for companies it's 事業年度 for one company and 連結会計年度 for a group. The term "accounting year" has some currency in English, but not a lot, so I can't really recommend it.
 
+### A note on 四半期決算
+Japanese companies announce their financial results every quarter in a report called a 短信, equivalent(?) to a quarterly earnings report in the US. The title of the Q1 earnings report is straightforward enough: something along the lines of YY年度第１四半期決算短信, literally "earnings report for Q1 of FY2022/2023," but traditionally translated along the lines of "Financial Results for the First Three Months of FY2022."
+
+However, things get complicated in Q2:
+| 第１四半期決算短信 | Financial Results for the First Three Months |
+| 第２四半期決算短信 | Financial Results for the First Six Months *or* for the First Half |
+| 第３四半期決算短信 | Financial Results for the First Nine Months |
+
+Yes indeed, Japanese quarterly reports are cumulative, so the length of the period is different for each report. This is mentioned nowhere in the Japanese title, it's just something you have to know! This is one of the most intersting things about legal translation, in my opinion - like all translators, we need to communicate the original text as accurately as possible without obscuring meaning, but frequently the original text simply does not say what it means!
+
 ### Year ending? Year ended?
-In the table up there in the 年度 section I have included the abbreviation "YE March 2022," which is the standard in New Zealand and Australia, but apparently not as common in other parts of our variegated English-speaking world. Nevertheless, I use it at every opportunity, and not just out of national pride. It's concise, it's hard to misinterpret, and best of all, it avoids the "ending"/"ended" distinction.
+In the table up there in the [年度 section](#年度-in-english) I have included the abbreviation "YE March 2022," which is the standard in New Zealand and Australia, but apparently not as common in other parts of our variegated English-speaking world. Nevertheless, I use it at every opportunity, and not just out of national pride. It's concise, it's hard to misinterpret, and best of all, it avoids the "ending"/"ended" distinction.
 
 The what? Well, some clients (and translators) insist that the current fiscal year is the "year ending March 2023," and all past years are the "year ended March 2022/21/20/etc." On the face of it, this isn't totally unreasonable, and if someone asks for it I am happy enough to give it to them. But as a linguist, it rubs me the wrong way. No matter how hard I look, I can't find any indication that native speakers make this distinction in practice:
 - [Here](https://www.parliament.nz/en/pb/papers-presented/current-papers/document/PAP_121064/otago-fish-and-game-council-report-for-the-year-ending) is an NZ government report for the "year ending 31 August 2021," published in March 2022
