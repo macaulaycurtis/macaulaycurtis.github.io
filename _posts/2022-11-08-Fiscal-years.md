@@ -57,6 +57,7 @@ By the way, 会計年度 is only used to refer to the government's fiscal year -
 Japanese companies announce their financial results every quarter in a report called a 短信, equivalent(?) to a quarterly earnings report in the US. The title of the Q1 earnings report is straightforward enough: something along the lines of YY年度第１四半期決算短信, literally "earnings report for Q1 of FY2022/2023," but traditionally translated along the lines of "Financial Results for the First Three Months of FY2022."
 
 However, things get complicated in Q2:
+
 | 第１四半期決算短信 | Financial Results for the First Three Months |
 | 第２四半期決算短信 | Financial Results for the First Six Months *or* for the First Half |
 | 第３四半期決算短信 | Financial Results for the First Nine Months |
